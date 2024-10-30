@@ -2,12 +2,10 @@
 
 #include <iostream>
 #include <unistd.h> // usleep() - MICROSECONDS (1s = 10^6)
-#include <conio.h>
 
 // Choice ENUM + enum to string function
 enum Choice { ROCK = 1, PAPER, SCISSORS };
 const std::string enterToRestart = "Please press ENTER to continue...\n";
-
 
 std::string choiceToString(Choice choice) {
     switch (choice) {
