@@ -18,7 +18,7 @@ std::string choiceToString(Choice choice) {
 
 // Returns 1-3
 int generateChoice() { 
-    return (std::rand() % 3) + 1;
+    return (std::rand() % 3) + 1; // not random but will switch to another number
 }
 
 int getIntInput() {
